@@ -1,0 +1,38 @@
+{
+  "name": "awesomeproject",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start --tunnel",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@expo/webpack-config": "^0.17.4",
+    "@react-native-firebase/app": "^18.1.0",
+    "@react-native-firebase/auth": "^18.1.0",
+    "@react-native-firebase/firestore": "^18.1.0",
+    "@react-native-firebase/storage": "^18.1.0",
+    "@react-native-masked-view/masked-view": "^0.2.9",
+    "@react-navigation/material-top-tabs": "^6.6.3",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
+    "expo": "~48.0.15",
+    "expo-image-picker": "^14.1.1",
+    "expo-status-bar": "~1.4.4",
+    "metro-react-native-babel-preset": "^0.76.7",
+    "react": "18.2.0",
+    "react-dom": "18.0",
+    "react-native": "0.71.7",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "^2.12.0",
+    "react-native-web": "~0.18.10",
+    "react-navigation-drawer": "^2.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
